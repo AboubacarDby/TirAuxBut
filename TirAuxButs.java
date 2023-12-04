@@ -33,7 +33,8 @@ public class TirAuxButs {
 	    // Joueur tire
 	    System.out.println("Où voulez-vous tirer :");
 	    System.out.print("\t1 - en haut à gauche \t2 - en haut au mileu \t3 - en haut à droite");
-	    System.out.println("\t4 - au milieu à gauche \t5 - au milieu au centre \t6 - au milieu à droite");
+	    System.out.println("");
+	    System.out.println("\t4 - au milieu à gauche \t5 - au milieu au centre 6 - au milieu à droite");
 	    System.out.println("\t7 - en bas à gauche \t8 - au bas au milieu \t9 - en bas à droite");
 	    // l'utilisateur saisie son choix
 	    choixJoueur = saisie.nextInt();
@@ -82,7 +83,8 @@ public class TirAuxButs {
 	    // IA tire
 	    System.out.println("Où voulez-vous plonger :");
 	    System.out.print("\t1 - en haut à gauche \t2 - en haut au mileu \t3 - en haut à droite");
-	    System.out.println("\t4 - au milieu à gauche \t5 - au milieu au centre \t6 - au milieu à droite");
+	    System.out.println("");
+	    System.out.println("\t4 - au milieu à gauche \t5 - au milieu au centre 6 - au milieu à droite");
 	    System.out.println("\t7 - en bas à gauche \t8 - au bas au milieu \t9 - en bas à droite");
 	    choixJoueur = saisie.nextInt();
 	    // choix du gardien en verticale
