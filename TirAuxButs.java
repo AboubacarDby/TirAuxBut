@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TirAuxButs {
 
     public static void main(String[] args) {
-
+	// initialisation des variables
 	int desTireur = d20();
 	int desGardien = d20();
 	int tourDeJeu = 1;
@@ -14,7 +14,6 @@ public class TirAuxButs {
 	int scoreEquipeIa = 0;
 	int jetJoueur = d20();
 	int jetIa = d20();
-//	int gardienZone = 0;
 	int choixIa = verticale();
 	int choixIa2 = horizontale();
 	int choixJoueur = 0;
@@ -22,7 +21,7 @@ public class TirAuxButs {
 	int horizontale;
 	int malus;
 	Scanner saisie = new Scanner(System.in);
-
+	// condition d'éxecution du programme
 	while (tourDeJeu != 5) {
 	    System.out.println("Tour : " + tourDeJeu);
 	    System.out.println("Le score est de : " + scoreEquipeJoueur + " à " + scoreEquipeIa);
@@ -32,12 +31,11 @@ public class TirAuxButs {
 	    choixIa = verticale();
 	    choixIa2 = horizontale();
 	    // Tour du joueur
-	    // choix du joueur
 	    System.out.println("Où voulez-vous tirer :");
 	    System.out.print("\t1 - en haut à gauche \t2 - en haut au mileu \t3 - en haut à droite");
 	    System.out.println("\t4 - au milieu à gauche \t5 - au milieu au centre \t6 - au milieu à droite");
 	    System.out.println("\t7 - en bas à gauche \t8 - au bas au milieu \t9 - en bas à droite");
-	    // l'utilisateur saisie son choix
+	    // saisie du choix
 	    choixJoueur = saisie.nextInt();
 
 	    // choix de zone du tireur en verticale
