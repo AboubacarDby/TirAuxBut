@@ -128,7 +128,7 @@ public class TirAuxButs {
 
 	    System.out.println(scoreEquipeJoueur + " à " + scoreEquipeIa);
 
-	    // incrémenation du tour de jeu jusqu'à arriver à la fin
+	    // incrémenation
 	    tourDeJeu++;
 
 	}
