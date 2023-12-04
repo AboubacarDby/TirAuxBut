@@ -19,7 +19,6 @@ public class TirAuxButs {
 	int choixJoueur = 0;
 	int verticale;
 	int horizontale;
-	int malus;
 	Scanner saisie = new Scanner(System.in);
 	// condition d'éxecution du programme
 	while (tourDeJeu != 5) {
@@ -149,7 +148,7 @@ public class TirAuxButs {
 	return resDe;
 
     }
-
+// méthode aléatoire pour l'Ia pour le choix horizontale
     static int horizontale() {
 	Random h = new Random();
 	int choixHorizontale = h.nextInt(2) + 1;
@@ -159,7 +158,7 @@ public class TirAuxButs {
 	return choixHorizontale;
 
     }
-
+// méthode aléatoire pour l'Ia pour le choix verticale
     static int verticale() {
 	Random v = new Random();
 	int choixVerticale = v.nextInt(3) + 1;
