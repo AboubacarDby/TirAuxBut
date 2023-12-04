@@ -74,7 +74,7 @@ public class TirAuxButs {
 		System.out.println("But du tireur !");
 		scoreEquipeJoueur = scoreEquipeJoueur + 1;
 	    } else {
-		System.out.println("Quelle arrêt du gardien !");
+		System.out.println("Quel arrêt du gardien !");
 	    }
 
 	    System.out.println(scoreEquipeJoueur + " à " + scoreEquipeIa);
@@ -123,7 +123,7 @@ public class TirAuxButs {
 		System.out.println("But du tireur adverse !");
 		scoreEquipeIa = scoreEquipeIa + 1;
 	    } else {
-		System.out.println("Quelle arrêt du gardien !");
+		System.out.println("Quel arrêt du gardien !");
 	    }
 
 	    System.out.println(scoreEquipeJoueur + " à " + scoreEquipeIa);
